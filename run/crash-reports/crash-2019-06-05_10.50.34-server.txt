@@ -1,0 +1,111 @@
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 6/5/19 10:50 AM
+Description: Ticking entity
+
+java.lang.IllegalStateException: Not building!
+	at net.minecraft.client.render.BufferBuilder.end(BufferBuilder.java:487)
+	at net.minecraft.client.render.Tessellator.draw(Tessellator.java:21)
+	at net.minecraft.world.explosion.Explosion.handler$constructor$zcl000(Explosion.java:546)
+	at net.minecraft.world.explosion.Explosion.<init>(Explosion.java:78)
+	at net.minecraft.server.world.ServerWorld.createExplosion(ServerWorld.java:1083)
+	at net.minecraft.world.World.createExplosion(World.java:775)
+	at net.minecraft.entity.PrimedTntEntity.explode(PrimedTntEntity.java:79)
+	at net.minecraft.entity.PrimedTntEntity.tick(PrimedTntEntity.java:68)
+	at net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:585)
+	at net.minecraft.world.World.tickEntity(World.java:615)
+	at net.minecraft.server.world.ServerWorld.tick(ServerWorld.java:384)
+	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:829)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:762)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:112)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.client.render.BufferBuilder.end(BufferBuilder.java:487)
+	at net.minecraft.client.render.Tessellator.draw(Tessellator.java:21)
+	at net.minecraft.world.explosion.Explosion.handler$constructor$zcl000(Explosion.java:546)
+	at net.minecraft.world.explosion.Explosion.<init>(Explosion.java:78)
+	at net.minecraft.server.world.ServerWorld.createExplosion(ServerWorld.java:1083)
+	at net.minecraft.world.World.createExplosion(World.java:775)
+	at net.minecraft.entity.PrimedTntEntity.explode(PrimedTntEntity.java:79)
+	at net.minecraft.entity.PrimedTntEntity.tick(PrimedTntEntity.java:68)
+	at net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:585)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:tnt (net.minecraft.entity.PrimedTntEntity)
+	Entity ID: 463
+	Entity Name: Primed TNT
+	Entity's Exact location: 293.30, 81.00, -44.53
+	Entity's Block location: World: (293,81,-45), Chunk: (at 5,5,3 in 18,-3; contains blocks 288,0,-48 to 303,255,-33), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.tickEntity(World.java:615)
+	at net.minecraft.server.world.ServerWorld.tick(ServerWorld.java:384)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [ServerPlayerEntity['Player549'/260, l='New World', x=291.27, y=85.54, z=-49.70]]
+	Chunk stats: ServerChunkCache: 2286
+	Level seed: 3369079661665167864
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: {}
+	Level spawn location: World: (240,73,-16), Chunk: (at 0,4,0 in 15,-1; contains blocks 240,0,-16 to 255,255,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 46884 game time, 46884 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 25419 (now: false), thunder time: 28411 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:829)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:762)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:112)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.1
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 309979224 bytes (295 MB) / 1684537344 bytes (1606 MB) up to 3793747968 bytes (3618 MB)
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		fabric: Fabric API 0.3.0-pre+build.156
+		fabric-api-base: fabric-api-base 0.1.0+f1618918
+		fabric-commands-v0: fabric-commands-v0 0.1.0+f1618918
+		fabric-containers-v0: fabric-containers-v0 0.1.0+f1618918
+		fabric-content-registries-v0: fabric-content-registries-v0 0.1.0+f1618918
+		fabric-crash-report-info-v1: fabric-crash-report-info-v1 0.1.0+f1618918
+		fabric-events-interaction-v0: fabric-events-interaction-v0 0.1.0+f1618918
+		fabric-events-lifecycle-v0: fabric-events-lifecycle-v0 0.1.0+9232ac87
+		fabric-item-groups-v0: fabric-item-groups-v0 0.1.0+f1618918
+		fabric-keybindings-v0: fabric-keybindings-v0 0.1.0+f1618918
+		fabric-mining-levels-v0: fabric-mining-levels-v0 0.1.0+f1618918
+		fabric-models-v0: fabric-models-v0 0.1.0+f1618918
+		fabric-networking-blockentity-v0: fabric-networking-blockentity-v0 0.1.0+f1618918
+		fabric-networking-v0: fabric-networking-v0 0.1.0+f1618918
+		fabric-object-builders-v0: fabric-object-builders-v0 0.1.0+9232ac87
+		fabric-registry-sync-v0: fabric-registry-sync-v0 0.1.0+f1618918
+		fabric-rendering-v0: fabric-rendering-v0 0.1.0+f1618918
+		fabric-resource-loader-v0: fabric-resource-loader-v0 0.1.0+f1618918
+		fabric-tag-extensions-v0: fabric-tag-extensions-v0 0.1.0+f1618918
+		fabric-textures-v0: fabric-textures-v0 0.1.0+f1618918
+		fabricloader: Fabric Loader 0.4.7+build.147
+		modid: Example Mod ${version}
+	Player Count: 1 / 8; [ServerPlayerEntity['Player549'/260, l='New World', x=291.27, y=85.54, z=-49.70]]
+	Data Packs: vanilla, fabric/fabric-mining-levels-v0
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'

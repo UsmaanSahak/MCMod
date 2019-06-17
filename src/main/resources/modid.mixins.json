@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.fabricmc.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ExampleMixin",
+    "ThirdMixin",
+    "FourthMixin",
+    "FirstPersonRendererMixin",
+    "FoodItemSettingsMixin",
+    "HungerManagerMixin",
+    "PlayerEntityMixin",
+    "LivingEntityMixin",
+    "LivingEntityRendererMixin",
+    "CrossbowItemMixin",
+    "GameOptionsMixin",
+    "FireworkEntityMixin",
+    "PlayerEntityRendererMixin",
+    "ItemMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

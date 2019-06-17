@@ -1,0 +1,7 @@
+{
+    "parent": "us:item/abc",
+    "textures": {
+        "layer0": "us:item/abc_pulling_1"
+    }
+}
+

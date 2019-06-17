@@ -1,0 +1,146 @@
+[23:28:18] [main/INFO]: Loading for game Minecraft 1.14.1
+[23:28:18] [main/INFO]: [FabricLoader] Loading 22 mods: fabric-networking-blockentity-v0@0.1.0+f1618918, fabric-keybindings-v0@0.1.0+f1618918, fabric-resource-loader-v0@0.1.0+f1618918, fabric-textures-v0@0.1.0+f1618918, fabric-content-registries-v0@0.1.0+f1618918, fabric-tag-extensions-v0@0.1.0+f1618918, fabricloader@0.4.7+build.147, fabric-registry-sync-v0@0.1.0+f1618918, fabric-commands-v0@0.1.0+f1618918, modid@${version}, fabric-containers-v0@0.1.0+f1618918, fabric-mining-levels-v0@0.1.0+f1618918, fabric-events-lifecycle-v0@0.1.0+9232ac87, fabric-events-interaction-v0@0.1.0+f1618918, fabric-crash-report-info-v1@0.1.0+f1618918, fabric@0.3.0-pre+build.156, fabric-models-v0@0.1.0+f1618918, fabric-item-groups-v0@0.1.0+f1618918, fabric-object-builders-v0@0.1.0+9232ac87, fabric-api-base@0.1.0+f1618918, fabric-networking-v0@0.1.0+f1618918, fabric-rendering-v0@0.1.0+f1618918
+[23:28:18] [main/WARN]: Mod `modid` (${version}) does not respect SemVer - comparison support is limited.
+[23:28:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/User/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.7.11.30/12878b7fa8bcc30844de4fa9e09d95c36b8c359b/sponge-mixin-0.7.11.30.jar Service=Knot/Fabric Env=CLIENT
+[23:28:18] [main/INFO]: Loaded Fabric development mappings for mixin remapper!
+[23:28:18] [main/INFO]: Compatibility level set to JAVA_8
+[23:28:18] [main/WARN]: Mixin config fabric-networking-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-networking-blockentity-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-resource-loader-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-mining-levels-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-containers-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-object-builders-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-rendering-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-item-groups-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-events-interaction-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-content-registries-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-textures-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-registry-sync-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-models-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-keybindings-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-crash-report-info-v1.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-events-lifecycle-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config fabric-commands-v0.mixins.json does not specify "minVersion" property
+[23:28:18] [main/WARN]: Mixin config modid.mixins.json does not specify "minVersion" property
+[23:28:18] [main/INFO]: Remapping refMap fabric-networking-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-networking-blockentity-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-resource-loader-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-mining-levels-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-object-builders-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-rendering-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-item-groups-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-events-interaction-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-content-registries-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-textures-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-registry-sync-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-models-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-keybindings-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-crash-report-info-v1-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-events-lifecycle-v0-refmap.json using remapper chain
+[23:28:18] [main/INFO]: Remapping refMap fabric-commands-v0-refmap.json using remapper chain
+[23:28:19] [main/INFO]: Setting user: Player841
+[23:28:20] [main/WARN]: @Final field ENCHANTED_GOLDEN_APPLE:Lnet/minecraft/item/FoodItemSetting; in modid.mixins.json:FoodItemSettingsMixin should be final
+[23:28:23] [main/INFO]: [STDOUT]: Hello Fabric world!
+[23:28:23] [main/WARN]: Skipping bad option: lastServer:
+[23:28:23] [main/INFO]: [STDOUT]: Creating GameOptions.
+[23:28:23] [main/INFO]: LWJGL Version: 3.2.1 build 12
+[23:28:25] [main/WARN]: ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x64': Can't obtain InputStream for win32-x86-64/SAPIWrapper_x64.dll
+ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x86': Can't obtain InputStream for win32-x86-64/SAPIWrapper_x86.dll
+
+[23:28:26] [main/INFO]: Built for minecraft version 1.14.1
+[23:28:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:28:31] [Server-Worker-7/WARN]: Texture wikitut:item/fabric_item with size 16x15 limits mip level from 4 to 0
+[23:28:31] [Server-Worker-7/WARN]: textures: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[23:28:31] [main/INFO]: OpenAL initialized.
+[23:28:31] [main/INFO]: Sound engine started
+[23:28:31] [main/INFO]: Created: 1024x512 textures-atlas
+[23:28:32] [main/INFO]: Created: 256x256 textures/particle-atlas
+[23:28:32] [main/INFO]: Created: 256x256 textures/painting-atlas
+[23:28:32] [main/INFO]: Created: 256x128 textures/mob_effect-atlas
+[23:28:37] [Narrator/INFO]: [STDERR]: java.lang.UnsatisfiedLinkError: com.mojang.text2speech.NarratorWindows$SAPIWrapperSolutionDLL.queue(JLcom/sun/jna/WString;Z)V
+[23:28:37] [Narrator/INFO]: [STDERR]: 	at com.mojang.text2speech.NarratorWindows$SAPIWrapperSolutionDLL.queue(Native Method)
+[23:28:37] [Narrator/INFO]: [STDERR]: 	at com.mojang.text2speech.NarratorWindows$Message.apply(NarratorWindows.java:110)
+[23:28:37] [Narrator/INFO]: [STDERR]: 	at com.mojang.text2speech.NarratorWindows$NarratorThread.run(NarratorWindows.java:80)
+[23:28:37] [Narrator/INFO]: [STDERR]: 	at java.lang.Thread.run(Thread.java:748)
+[23:28:37] [main/INFO]: Loading Fabric registry [file 1/4]
+[23:28:39] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:28:39] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:28:39] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:28:39] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:28:39] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:28:39] [Server thread/INFO]: Starting integrated minecraft server version 1.14.1
+[23:28:39] [Server thread/INFO]: Generating keypair
+[23:28:39] [Server thread/INFO]: Loading Fabric registry [file 1/4]
+[23:28:39] [Server thread/INFO]: Reloading ResourceManager: Default, fabric-mining-levels-v0
+[23:28:39] [Server thread/INFO]: Loaded 6 recipes
+[23:28:40] [Server thread/INFO]: Loaded 811 advancements
+[23:28:40] [Server thread/ERROR]: Error loading saved data: raids
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:138) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:130) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.method_17923(PersistentStateManager.java:87) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.get(PersistentStateManager.java:56) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.getOrCreate(PersistentStateManager.java:38) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.world.ServerWorld.<init>(ServerWorld.java:176) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.MinecraftServer.createWorlds(MinecraftServer.java:356) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadWorld(IntegratedServer.java:77) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.setupServer(IntegratedServer.java:94) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:603) [minecraft-1.14.1-mapped-5.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[23:28:40] [Server thread/ERROR]: Error loading saved data: raids_nether
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:138) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:130) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.method_17923(PersistentStateManager.java:87) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.get(PersistentStateManager.java:56) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.getOrCreate(PersistentStateManager.java:38) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.world.ServerWorld.<init>(ServerWorld.java:176) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.world.SecondaryServerWorld.<init>(SecondaryServerWorld.java:14) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.MinecraftServer.createWorlds(MinecraftServer.java:393) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadWorld(IntegratedServer.java:77) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.setupServer(IntegratedServer.java:94) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:603) [minecraft-1.14.1-mapped-5.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[23:28:40] [Server thread/ERROR]: Error loading saved data: raids_end
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:138) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.nbt.NbtIo.read(NbtIo.java:130) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.method_17923(PersistentStateManager.java:87) ~[minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.get(PersistentStateManager.java:56) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.world.PersistentStateManager.getOrCreate(PersistentStateManager.java:38) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.world.ServerWorld.<init>(ServerWorld.java:176) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.world.SecondaryServerWorld.<init>(SecondaryServerWorld.java:14) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.MinecraftServer.createWorlds(MinecraftServer.java:393) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadWorld(IntegratedServer.java:77) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.integrated.IntegratedServer.setupServer(IntegratedServer.java:94) [minecraft-1.14.1-mapped-5.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:603) [minecraft-1.14.1-mapped-5.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[23:28:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:28:41] [main/INFO]: Preparing spawn area: 0%
+[23:28:41] [main/INFO]: Preparing spawn area: 0%
+[23:28:42] [main/INFO]: Preparing spawn area: 0%
+[23:28:42] [main/INFO]: Preparing spawn area: 0%
+[23:28:43] [main/INFO]: Preparing spawn area: 1%
+[23:28:46] [Server thread/INFO]: Changing view distance to 11, from 10
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Preparing spawn area: 1%
+[23:28:47] [main/INFO]: Time elapsed: 6784 ms
+[23:28:47] [Server thread/INFO]: Player841[local:E:0bc0ab7b] logged in with entity id 141 at (476.82721600305473, 63.0, 127.19550937574579)
+[23:28:47] [Server thread/INFO]: Player841 joined the game
+[23:28:48] [Server thread/INFO]: Player841 has made the advancement [Stone Age]
+[23:28:48] [main/INFO]: [CHAT] Player841 has made the advancement [Stone Age]
+[23:28:48] [main/INFO]: Loaded 45 advancements
+[23:28:49] [main/WARN]: Received passengers for unknown entity
+[23:28:58] [main/INFO]: Loaded 51 advancements
+[23:29:05] [Server thread/INFO]: Saving and pausing game...
+[23:29:05] [Server thread/INFO]: Saving chunks for level 'New World'/minecraft:the_end
+[23:29:05] [Server thread/INFO]: Saving chunks for level 'New World'/minecraft:overworld
+[23:29:07] [main/INFO]: Stopping!

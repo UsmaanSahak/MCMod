@@ -1,0 +1,60 @@
+{
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2019-06-15 12:29:37 -0700",
+      "iron_chestplate": "2019-06-15 12:29:37 -0700",
+      "iron_leggings": "2019-06-15 12:29:37 -0700",
+      "iron_helmet": "2019-06-15 12:29:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_boots": "2019-06-15 12:29:37 -0700",
+      "has_iron_leggings": "2019-06-15 12:29:37 -0700",
+      "has_iron_helmet": "2019-06-15 12:29:37 -0700",
+      "has_iron_chestplate": "2019-06-15 12:29:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2019-06-15 12:29:55 -0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2019-06-15 12:29:40 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2019-06-15 12:29:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-06-15 12:29:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_boots": "2019-06-15 12:29:37 -0700",
+      "has_iron_leggings": "2019-06-15 12:29:37 -0700",
+      "has_iron_helmet": "2019-06-15 12:29:37 -0700",
+      "has_iron_chestplate": "2019-06-15 12:29:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2019-06-15 12:29:37 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 1957
+}
